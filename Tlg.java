@@ -129,7 +129,7 @@ public class Tlg extends TelegramLongPollingBot{
 
     }
     public static String sendMessageTo(String msg){
-        String response = HttpRequest.get("https://api.telegram.org/bot424249083:AAGgiUn1MTFCC6U6xH0wwMV3h1AiaBChxSg/sendMessage?chat_id=120988325&text=" + msg).body();
+        String response = HttpRequest.get("https://api.telegram.org/bot424249083:AAGgiUn1MTFCC6U6xXXXXXXwMV3h1AiaBChxSg/sendMessage?chat_id=120988325&text=" + msg).body();
         System.out.println("Response was: " + response);
         return response;
     }
