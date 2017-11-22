@@ -77,7 +77,7 @@ public class Cam {
                             System.out.println("Moved");
                             String newtempname = "./phs/" + (sdf.format(new Date())) + ".jpg";
                             Imgcodecs.imwrite(newtempname, frame);
-                            Tlg.sendPhotoTo(newtempname, "110499862");
+                            Tlg.sendPhotoTo(newtempname, "120988325");
                         }
                     }
 

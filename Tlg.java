@@ -1,6 +1,5 @@
 package ru.thematdev.bot;
 
-import ht.Http;
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.TelegramBotsApi;
 import org.telegram.telegrambots.api.methods.send.SendMessage;
@@ -130,7 +129,7 @@ public class Tlg extends TelegramLongPollingBot{
 
     }
     public static String sendMessageTo(String msg){
-        String response = HttpRequest.get("https://api.telegram.org/bot424249083:AAGgiUn1MTFCC6U6xH0wwMV3h1AiaBChxSg/sendMessage?chat_id=110499862&text=" + msg).body();
+        String response = HttpRequest.get("https://api.telegram.org/bot424249083:AAGgiUn1MTFCC6U6xH0wwMV3h1AiaBChxSg/sendMessage?chat_id=120988325&text=" + msg).body();
         System.out.println("Response was: " + response);
         return response;
     }
